@@ -1,0 +1,25 @@
+{
+  "name": "requirejs-tasklist-sample",
+  "version": "1.0.0",
+  "description": "[![NPM version](https://badge.fury.io/js/requirejs-tasklist-sample.svg)](http://badge.fury.io/js/requirejs-tasklist-sample) [![Downloads](http://img.shields.io/npm/dm/requirejs-tasklist-sample.svg)](http://badge.fury.io/js/requirejs-tasklist-sample)    [![Build Status](https://travis-ci.org//requirejs-tasklist-sample.svg?branch=master)](https://travis-ci.org//requirejs-tasklist-sample) [![Test Coverage](https://codeclimate.com/github//requirejs-tasklist-sample/badges/coverage.svg)](https://codeclimate.com/github//requirejs-tasklist-sample) [![Code Climate](https://codeclimate.com/github//requirejs-tasklist-sample/badges/gpa.svg)](https://codeclimate.com/github//requirejs-tasklist-sample)    [![Dependency Status](https://david-dm.org//requirejs-tasklist-sample.svg)](https://david-dm.org//requirejs-tasklist-sample) [![devDependency Status](https://david-dm.org//requirejs-tasklist-sample/dev-status.svg)](https://david-dm.org//requirejs-tasklist-sample#info=devDependencies) [![peerDependency Status](https://david-dm.org//requirejs-tasklist-sample/peer-status.svg)](https://david-dm.org//requirejs-tasklist-sample#info=peerDependencies)",
+  "homepage": "http://",
+  "bugs": "",
+  "readme": "README.md",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-processhtml": "^0.3.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alex",
+  "license": "ISC"
+}

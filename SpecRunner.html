@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>via http://jasmine.github.io/2.1/introduction.html</title>
+  <script src="src/vendor/jasmine-standalone/jasmine-standalone.js"></script>
+    <script src="src/vendor/requirejs/require.js"></script>
+    <script src="src/app/js/require-config.js"></script>
+    <script type="text/javascript">
+        require.config({
+            baseUrl: 'src/app/js',
+            paths: {
+                Squire: '../../vendor/squire/src/Squire'
+            }
+        });
+    </script>
+
+    <!-- include spec files here... -->
+    <script src="spec/tasksModule.spec.js"></script>
+</head>
+</html>
